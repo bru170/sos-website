@@ -1,19 +1,16 @@
-const Root = () => {
-  return (
-    <>
-      <h1>Hello Frontity</h1>
-    </>
-  )
-}
-export default {
+import Root from "./app"
+
+const myFirstTheme = {
   name: "sos-website",
   roots: {
     sos: Root
   },
   state: {
-    sos: {}
+    theme: {}
   },
   actions: {
-    sos: {}
+    theme: {}
   }
 }
+
+export default myFirstTheme
